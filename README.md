@@ -54,3 +54,9 @@ $ echo ‘one three two one’ | python mapper.py | sort | python reducer.py
 $hadoop fs -put   [本地datas路径]   [HDFS路径]  
 传完之后，就可以运行run.sh了:  
 $sh run.sh
+  
+环境：
+------------------------
+=============================================  
+  
+python  version = '2.7'  #也可以使用3.x以上版本，相应的语法区别改一下就行了
