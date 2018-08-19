@@ -26,7 +26,7 @@ one 1
 three 1  
 two 1 
 
-### reduce.py  
+### reducer.py  
 该程序是把排序好的单词进行统计，结果如：  
 one 1  
 one 1  
