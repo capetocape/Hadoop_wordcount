@@ -1,18 +1,18 @@
 # Hadoop_wordcount
 This is a  "hello world" program for Hadoop
 
-这是hadoop的一个入门例子——wordcount
-功能：就是统计文档中的所有单词，输出每个单词对应的个数。
+这是hadoop的一个入门例子——wordcount，功能：就是统计文档中的所有单词，输出每个单词对应的个数。
 
 1.本地运行
-mapper.py程序是把一个文件中所有单词提取出来，
-各占一行，结果如：
-one 1
-three 1
-two 1
+------------------------
+### mapper.py
+该程序是把一个文件中所有单词提取出来，各占一行，结果如：  
+one 1  
+three 1  
+two 1  
 one 1
 
-2.reduce.py是把排序好的单词进行统计，结果如：
+reduce.py是把排序好的单词进行统计，结果如：
 one 1
 one 1
 three 1
