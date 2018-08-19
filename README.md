@@ -13,7 +13,7 @@ two 1
 one 1  
 
 ### sort  
-命令行下的指令，把单词进行排序（字典序），结果如：
+命令行下的指令，把单词进行排序（字典序），结果如：  
 one 1  
 three 1  
 two 1  
@@ -49,5 +49,5 @@ $ echo ‘one three two one’ | python mapper.py | sort | python reducer.py
 2.hadoop服务器上运行
 ------------------------
 run.sh是一个脚本，让map/reduce程序在hadoop集群上运行  
-先把datas文件夹传到hadoop服务器上  #hadoop fs -put [本地datas路径] [HDFS路径]  
+先把datas文件夹传到hadoop服务器上  #hadoop fs -put   [本地datas路径]   [HDFS路径]  
 传完之后，就可以运行run.sh了       #sh run.sh
