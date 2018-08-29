@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-streaming_jar=/usr/bin/hadoop/software/hadoop-2.7.2U7/share/hadoop/tools/lib/hadoop-streaming-2.7.2U7.jar
+streaming_jar=[hadoop服务器的jar包]
 input=[HDFS上数据文件的绝对路径]
 output=[HDFS结果绝对路径]
 hadoop fs -rmr $output
